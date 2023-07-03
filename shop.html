@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div id="left">
+            <p id="raz">Razor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+            <p id="ab">Wieczko55@gmail.com  <img src="arrow-right-solid.svg" alt="arrow right" height="20px" width="20px"></p>
+        </div>
+        
+        <div id="right">
+            <img src="website.png" alt="" height="50px" width="50px">
+            <a href="#">Sign up</a>
+            <button>Request Demo</button>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="screen">
+            <div id="text">
+                <h2>Agent Login</h2>
+                <p>Hey, Enter your details to get sign in <p> to your account</p>
+                
+            </div>
+            <div id="content">
+                <form action="">
+                    <div class="inputbox">
+                        <img src="circle-regular.svg" alt="" height="20px" width="20px">
+                        <input type="email" required name id>
+                        <label for>Enter Email / Phone No</label>
+                    </div>
+                    <div class="inputbox">
+                
+                        <input onclick="f1()" type="password" required name id>
+                        <label for>Password</label>
+                    </div>
+                    <div id="trouble">
+                        <p>Having trouble in sign in?</p>
+                    </div>
+                    <div id="signIn">
+                        <button>Sign in</button>
+                    </div>
+                    <div id="or">
+                        <p>&mdash; Or Sign in with &mdash;</p>
+                    </div>
+                    <div class="buttons">
+                        <button><img src="google.svg" alt="google logo" height="25px" width="25px"> <p>Google</p></button> 
+                        <button><img src="apple.svg" alt="apple logo" height="25px" width="25px"> <p>Apple ID</p></button> 
+                        <button><img src="facebook.svg" alt="facebook logo" height="25px" width="25px"> <p>Facebook</p></button>
+                        
+                    </div>
+                    <div id="register">
+                        <p>Don't have an account?<strong>Request Now</strong></p>
+                    </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <p> Copyright &copy;wework 2022 | Privacy Policy</p>
+        </div>
+        <script>
+              let button = document.querySelector("input")
+                button.addEventListener("click", function()
+    {
+       let a = document.querySelector("label");
+       a.style.opacity = "0";
+
+    })
+        </script>
 </body>
 </html>
