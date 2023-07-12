@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
 *
 {
     margin: 0;
@@ -118,7 +119,7 @@ form
     height: 100%;
     width: 85%;
 }
-.inputbox
+.form__input
 {
     position: relative;
     width: 100%;
@@ -126,7 +127,7 @@ form
     margin: 40px 0 20px 0;
     
 }
-.inputbox + .inputbox
+.form__input + .form__input
 {
     position: relative;
     width: 100%;
@@ -134,7 +135,7 @@ form
     margin: 20px 0 25px 0;
     
 }
-.inputbox input
+.form__input input
 {
     width: 96%;
     height: 50px;
@@ -145,7 +146,7 @@ form
     background-color: transparent;
     font-size: 20px;
 }
-.inputbox label
+.form__input label
 {
     position: absolute;
     top: 20%;
@@ -153,17 +154,17 @@ form
     color: gray;
     pointer-events: none;
 }
-.inputbox img 
+.form__input img 
 {
     position: absolute;
     top: 25%;
     right: 5%;
 }
-.signIn
+.form__signIn
 {
     margin: 25px 0 0 0;
 }
-.signIn button
+.form__signIn button
 {
     width: 100%;
     height: 50px;
@@ -172,18 +173,22 @@ form
     background-color: gold;
     font-size: 15px;
 }
-.or
+.form__or
 {
     width: 100%;
     margin: 25px 0 15px 0;
     text-align: center;
 }
-.buttons
+.form__trouble
+{
+    text-align: center;
+}
+.form__buttons
 {
     width: 100%;
     display: flex;
 }
-.buttons button
+.form__buttons button
 {
     justify-content: center;
     align-items: center;
@@ -199,16 +204,16 @@ form
     font-size: 15px;
     font-weight: bold;
 }
-.buttons  img
+.content img
 {
   float: left;
   padding-left: 15px;
 }
-.buttons p
+.form__buttons p
 {
     padding-top: 5px;
 }
-.register
+.form__register
 {
     width: 100%;
     margin: 30px 0 0 0;
@@ -311,19 +316,19 @@ input:focus + label
     {
         margin:  15px 0 15px 0;
     }
-    .signIn
+    .form__signIn
     {
         margin: 15px 0 0 0 ;
     }
-    .or
+    .form__or
     {
         margin: 15px 0 10px 0;
     }
-    .trouble
+    .form__trouble
     {
         text-align: center;
     }
-    .buttons button 
+    .form__buttons button 
     {
         display: flex;
         flex-direction: column;
@@ -332,12 +337,12 @@ input:focus + label
         padding: 0;
         
     }
-    .buttons button img
+    .content img
     {
         clear: both;
         padding: 0;
     }
-    .buttons p 
+    .form__buttons p 
     {
         font-size: 13px;
         
@@ -357,7 +362,7 @@ input:focus + label
     }
     .wrapper
     {
-        height: 550px;
+        height: 570px;
         margin-top: 60px;
     }
     .header__left-panel{
@@ -374,6 +379,13 @@ input:focus + label
         font-size: 13px;
         font-weight: bold;
         left: 70%;
+    }
+    .form__register
+    {
+        width: 100%;
+        margin: 15px 0 0 0;
+        text-align: center;
+        font-size: 15px;
     }
     h2
     {
@@ -456,25 +468,25 @@ input:focus + label
     {
         margin:  20px 0 15px 0;
     }
-    .signIn
+    .form__signIn
     {
         margin: 15px 0 0 0 ;
     }
-    .or
+    .form__or
     {
         margin: 25px 0 10px 0;
         font-size: 20px;
     }
-    .trouble
+    .form__trouble
     {
         text-align: center;
         font-size: 20px;
     }
-    .buttons
+    .form__buttons
     {
         margin: 25px 0 0 0;
     }
-    .buttons button 
+    .form__buttons button 
     {
         display: flex;
         flex-direction: column;
@@ -483,20 +495,20 @@ input:focus + label
         padding: 0;
         height: 70px;
     }
-    .register
+    .form__register
     {
         font-size: 20px;
     }
-    .signIn button
+    .form__signIn button
     {
         font-size: 30px;
     }
-    .buttons button img
+    .content img
     {
         clear: both;
         padding: 0;
     }
-    .buttons p 
+    .form__buttons p 
     {
         font-size: 17px;
         
