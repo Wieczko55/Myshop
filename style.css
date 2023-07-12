@@ -7,6 +7,7 @@
 body
 {
    overflow-y: scroll; 
+   overflow-x: hidden;
    box-sizing: border-box;
    width: 100vw;
    height: 100vh;
@@ -20,7 +21,7 @@ header
     height: 100px;
     width: 100%;
 }
-.left
+.header__left-panel
 {
     position: relative;
     flex-direction: row;
@@ -31,14 +32,14 @@ header
     display: flex;
     
 }
-.left .raz
+.header__left-panel .logo
 {
     padding: 10px 0 20px 10px;
     border-bottom: 1px solid black;
     font-weight: bolder;
     font-size: 25px;
 }
-.right
+.header__right-panel
 {
     flex-direction: row;
     display: flex;
@@ -49,7 +50,7 @@ header
     padding-right: 5%;
     
 }
-.right button
+.header__right-panel button
 {
     width: 170px;
     height: 40px;
@@ -58,13 +59,13 @@ header
     border-radius: 10px;
     margin-left: 30px;
 }
-.right a
+.header__right-panel a
 {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-.right img
+.header__right-panel img
 {
     margin-right: 10px;
 }
@@ -220,11 +221,16 @@ form
     margin: 30px 0 0 0;
     text-align: center;
 }
+.copyright a 
+{
+    color: black;
+    font-weight: bold;
+}
 input:focus + label
 {
     opacity: 0;
 }
-.ab
+.header__yourEmail
 {
     position: absolute;
     top: 95%;
@@ -233,21 +239,21 @@ input:focus + label
     font-weight: 200;
     border: none;
 }
-.ab img
+.header__yourEmail img
 {
     float: right;
     margin-left: 15px;
 }
 @media  all and (max-width: 640px)
 {
-    .left .raz
+    .header__left-panel .logo
     {
         font-size: 20px;
         padding: 10px 0 10px 0px;
         margin-left: 5px;
 
     }
-    .left img 
+    .header__left-panel img 
     {
         position: absolute;
         height: 10px;
@@ -259,17 +265,17 @@ input:focus + label
     {
         padding-right: 2%;
     }
-    .right a 
+    .header__right-panel a 
     {
         font-size: 15px;
     }
-    .right img
+    .header__right-panel img
     {
         height: 40px;
         width: 40px;
         margin-right: 0;
     }
-    .right button 
+    .header__right-panel button 
     {
         width: 100px;
         margin: 5px;
@@ -344,20 +350,25 @@ input:focus + label
         font-size: 15px;
         margin-top: 10px;
     }
+    .copyright a 
+    {
+        color: black;
+        font-weight: bold;
+    }
     .wrapper
     {
         height: 550px;
         margin-top: 60px;
     }
-    .left{
+    .header__left-panel{
         width: 30%;
         justify-content: start;
     }
-    .right
+    .header__right-panel
     {
         width: 70%;
     }
-    .ab
+    .header__yourEmail
     {
         top: 95%;
         font-size: 13px;
@@ -376,14 +387,14 @@ input:focus + label
 
 @media  all and (min-width: 650px) and (max-width: 1280px)
 {
-    .left .raz
+    .header__left-panel .logo
     {
         font-size: 25px;
         padding: 10px 0 10px 0px;
         margin-left: 25px;
 
     }
-    .left img 
+    .header__left-panel img 
     {
         height: 15px;
         width: 15px;
@@ -391,21 +402,21 @@ input:focus + label
         top: 20%;
         left: 95%;
     }
-    .right
+    .header__right-panel
     {
         padding-right: 5%;
     }
-    .right a 
+    .header__right-panel a 
     {
         font-size: 20px;
     }
-    .right img
+    .header__right-panel img
     {
         height: 55px;
         width: 55px;
         margin-right: 0;
     }
-    .right button 
+    .header__right-panel button 
     {
         width: 160px;
         height: 50px;
@@ -498,20 +509,25 @@ input:focus + label
         font-size: 20px;
         margin-top: 15px;
     }
+    .copyright a 
+    {
+        color: black;
+        font-weight: bold;
+    }
     .wrapper
     {
         height: 750px;
         margin-top: 60px;
     }
-    .left{
+    .header__left-panel{
         width: 30%;
         justify-content: start;
     }
-    .right
+    .header__right-panel
     {
         width: 70%;
     }
-    .ab
+    .header__yourEmail
     {
         top: 95%;
         font-size: 18px;
