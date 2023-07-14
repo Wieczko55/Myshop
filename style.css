@@ -42,8 +42,8 @@ header
 }
 .header__right-panel
 {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     justify-content: right;
     align-items: center;
     height: 100%;
@@ -92,8 +92,8 @@ header
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding-top: 30px;
     height: 100px;
+    padding-top: 30px;
 }
 .text h2
 {
@@ -192,15 +192,15 @@ form
 {
     justify-content: center;
     align-items: center;
-    margin-left: 1%;
+    flex-direction: row;
     width: 32%;
     height: 50px;
-    background-color: transparent;
+    padding-right: 6%;
+    margin-left: 1%;
     border: 1px solid grey;
     border-radius: 10px;
-    flex-direction: row;
+    background-color: transparent;
     text-align: center;
-    padding-right: 6%;
     font-size: 15px;
     font-weight: bold;
 }
@@ -217,8 +217,8 @@ form
 {
     width: 100%;
     margin: 30px 0 0 0;
-    text-align: center;
     font-size: 15px;
+    text-align: center;
 }
 .copyright
 {
@@ -253,18 +253,18 @@ input:focus + label
 {
     .header__left-panel .logo
     {
-        font-size: 20px;
         padding: 10px 0 10px 0px;
+        font-size: 20px;
         margin-left: 5px;
 
     }
     .header__left-panel img 
     {
         position: absolute;
-        height: 10px;
-        width: 10px;
         top: 20%;
         left: 93%;
+        width: 10px;
+        height: 10px;
     }
     .right
     {
@@ -276,8 +276,8 @@ input:focus + label
     }
     .header__right-panel img
     {
-        height: 40px;
         width: 40px;
+        height: 40px;
         margin-right: 0;
     }
     .header__right-panel button 
@@ -309,8 +309,8 @@ input:focus + label
     }
     .inputbox label
     {
-        font-size: 15px;
         top: 27%;
+        font-size: 15px;
     }
     .inputbox  + .inputbox
     {
@@ -349,11 +349,11 @@ input:focus + label
     }
     .copyright
     {
-        margin: 0;
         width: 80%;
         padding-left: 10%;
-        font-size: 15px;
+        margin: 0;
         margin-top: 10px;
+        font-size: 15px;
     }
     .copyright a 
     {
@@ -366,8 +366,8 @@ input:focus + label
         margin-top: 60px;
     }
     .header__left-panel{
-        width: 30%;
         justify-content: start;
+        width: 30%;
     }
     .header__right-panel
     {
@@ -376,9 +376,9 @@ input:focus + label
     .header__yourEmail
     {
         top: 95%;
+        left: 70%;
         font-size: 13px;
         font-weight: bold;
-        left: 70%;
     }
     .form__register
     {
@@ -401,18 +401,18 @@ input:focus + label
 {
     .header__left-panel .logo
     {
-        font-size: 25px;
         padding: 10px 0 10px 0px;
         margin-left: 25px;
+        font-size: 25px;
 
     }
     .header__left-panel img 
     {
-        height: 15px;
-        width: 15px;
         position: absolute;
         top: 20%;
         left: 95%;
+        width: 15px;
+        height: 15px;
     }
     .header__right-panel
     {
@@ -424,8 +424,8 @@ input:focus + label
     }
     .header__right-panel img
     {
-        height: 55px;
         width: 55px;
+        height: 55px; 
         margin-right: 0;
     }
     .header__right-panel button 
@@ -433,9 +433,8 @@ input:focus + label
         width: 160px;
         height: 50px;
         margin: 5px;
-        font-size: 17px;
         margin-left: 15px;
-
+        font-size: 17px;
     }
     .screen
     {
@@ -461,8 +460,8 @@ input:focus + label
     }
     .inputbox label
     {
-        font-size: 17px;
         top: 27%;
+        font-size: 17px;
     }
     .inputbox  + .inputbox
     {
@@ -492,8 +491,8 @@ input:focus + label
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0;
         height: 70px;
+        padding: 0;
     }
     .form__register
     {
@@ -515,11 +514,11 @@ input:focus + label
     }
     .copyright
     {
-        margin: 0;
         width: 80%;
         padding-left: 10%;
-        font-size: 20px;
+        margin: 0;
         margin-top: 15px;
+        font-size: 20px;
     }
     .copyright a 
     {
@@ -532,8 +531,8 @@ input:focus + label
         margin-top: 60px;
     }
     .header__left-panel{
-        width: 30%;
         justify-content: start;
+        width: 30%;
     }
     .header__right-panel
     {
@@ -542,9 +541,9 @@ input:focus + label
     .header__yourEmail
     {
         top: 95%;
+        left: 12%;
         font-size: 18px;
         font-weight: bold;
-        left: 12%;
     }
     h2
     {
