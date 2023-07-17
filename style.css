@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/eau');
 *
 {
     margin: 0;
@@ -14,7 +14,8 @@ body
    height: 100vh;
    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-eye-0001_2_0.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=efbf83e72da8461f9547e57a50bc3261) center ;
    background-size: cover;
-   font-family: 'poppins';
+   font-family: 'eau-sans-black', sans-serif;
+   font-weight: 800;
 }
 header
 {
@@ -39,8 +40,8 @@ header
     padding: 10px 0 20px 10px;
     margin-left: 50px;
     border-bottom: 1px solid black;
-    font-weight: bolder;
     font-size: 25px;
+    font-weight: bolder;
 }
 .header__right-panel
 {
@@ -57,7 +58,7 @@ header
 {
     width: 170px;
     height: 40px;
-    background-color: gold;
+    background-color: rgb(218, 188, 20);
     border: none;
     border-radius: 10px;
     margin-left: 30px;
@@ -67,6 +68,7 @@ header
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: normal;
 }
 .header__right-panel img
 {
@@ -99,12 +101,14 @@ header
 }
 .text h2
 {
-    font-weight: 600;
-    font-size: 30px;
+    
+    font-size: 1.8rem;
+    font-weight:bolder;
 }
 .text p
 {
-    font-size: 20px;
+    font-size: 1.2rem;
+    font-weight:normal;
 }
 .content
 {
@@ -115,6 +119,7 @@ header
     align-items: center;
     width: 100%;
     height: 75%;
+    font-weight: normal;
 }
 form
 {
@@ -147,14 +152,16 @@ form
     padding: 0 0 0 10px;
     background-color: transparent;
     font-size: 20px;
+    font-weight: normal;
 }
 .form__input label
 {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 15px;
     color: gray;
     pointer-events: none;
+    font-weight: 100;
 }
 .form__input img 
 {
@@ -172,23 +179,22 @@ form
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: gold;
+    background-color: rgb(218, 188, 20);
     font-size: 15px;
+    cursor: pointer;
 }
 .form__or
 {
     width: 100%;
-    margin: 25px 0 15px 0;
+    margin: 30px 0 20px 0;
     text-align: center;
 }
-.form__trouble
-{
-    text-align: center;
-}
+
 .form__buttons
 {
     width: 100%;
     display: flex;
+    gap: 0.3rem;
 }
 .form__buttons button
 {
@@ -208,7 +214,7 @@ form
 .form__register
 {
     width: 100%;
-    margin: 30px 0 0 0;
+    margin: 40px 0 0 0;
     font-size: 15px;
     text-align: center;
 }
@@ -217,11 +223,11 @@ form
     width: 100%;
     margin: 30px 0 0 0;
     text-align: center;
+    font-weight: normal;
 }
 .copyright a 
 {
     color: black;
-    font-weight: bold;
 }
 input:focus + label
 {
@@ -234,12 +240,16 @@ input:focus + label
     left: 27%;
     font-size: medium;
     font-weight: 200;
+    color: grey;
     border: none;
 }
 .header__yourEmail img
 {
-    float: right;
-    margin-left: 15px;
+    margin-left: 25px;
+}
+.logo::first-letter
+{
+    font-size: 27px;
 }
 @media  all and (max-width: 640px)
 {
