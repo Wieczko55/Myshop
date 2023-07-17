@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/eau');
 *
 {
     margin: 0;
@@ -14,7 +13,7 @@ body
    height: 100vh;
    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-eye-0001_2_0.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=efbf83e72da8461f9547e57a50bc3261) center ;
    background-size: cover;
-   font-family: 'eau-sans-black', sans-serif;
+   font-family: 'Eua sans', sans-serif;
    font-weight: 800;
 }
 header
