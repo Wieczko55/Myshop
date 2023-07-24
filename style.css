@@ -58,18 +58,18 @@ header
     background-color: rgb(218, 188, 20);
     border: none;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .header__right-panel a
 {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: normal;
 }
 .header__right-panel img
 {
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 .wrapper 
 {
@@ -81,7 +81,11 @@ header
 }
 .screen
 {
-    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
     height: 100%;
     border: none;
     border-radius: 50px;
@@ -94,7 +98,7 @@ header
     flex-direction: column;
     width: 100%;
     height: 100px;
-    padding-top: 3.5rem;
+    padding-top: 3.2rem;
 }
 .text h2
 {
@@ -114,7 +118,7 @@ header
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
     height: 75%;
     font-weight: normal;
     margin-top: 1rem;
@@ -137,7 +141,7 @@ form
     position: relative;
     width: 100%;
     height: 55px;
-    margin: 20px 0 1.2rem 0;
+    margin: 1.2rem 0 0.8rem 0;
     
 }
 .form__input input
@@ -170,7 +174,7 @@ form
 }
 .form__signIn
 {
-    margin: 25px 0 0 0;
+    margin: 15px 0 0 0;
 }
 .form__signIn button
 {
@@ -179,13 +183,13 @@ form
     border: none;
     border-radius: 10px;
     background-color: rgb(218, 188, 20);
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
 }
 .form__or
 {
     width: 100%;
-    margin: 25px 0 20px 0;
+    margin: 1rem 0 1rem 0;
     text-align: center;
 }
 
@@ -245,6 +249,15 @@ input:focus + label
 .header__yourEmail img
 {
     margin-left: 25px;
+}
+.form__input + .form__input button
+{
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
 }
 .logo::first-letter
 {
