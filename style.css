@@ -27,7 +27,7 @@ header
     flex-direction: row;
     align-items: center;
     height: 100%;
-    width: 20%;
+    width: 30%;
     display: flex;
     
 }
@@ -35,7 +35,7 @@ header
 {
     width: 55%;
     padding: 10px 0 20px 0;
-    margin-left: 5rem;
+    margin-left: 6.7rem;
     border-bottom: 1px solid black;
     font-size: 25px;
     font-weight: bolder;
@@ -53,42 +53,45 @@ header
 }
 .header__right-panel button
 {
-    width: 170px;
-    height: 40px;
+    width: 160px;
+    height: 50px;
     background-color: rgb(218, 188, 20);
     border: none;
     border-radius: 10px;
-    margin-left: 25px;
+    margin-left: 2px;
+    font-size: 1.02rem;
+    margin-bottom: 10px;
 }
 .header__right-panel a
 {
+    margin:0 1rem 1rem 0;
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
-    font-weight: normal;
+    font-weight: bold;
 }
 .header__right-panel img
 {
-    margin-right: 1rem;
+    margin: 0 1.3rem 0 0;
 }
 .wrapper 
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 700px;
-    margin-top: 4rem;
+    height: 630px;
+    margin-top: 3rem;
+    margin-left: 1rem;
 }
 .screen
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 30%;
+    align-items: center;
+    width: 33.5%;
     height: 100%;
     border: none;
-    border-radius: 50px;
+    border-radius: 40px;
     background-color: white;
 }
 .text
@@ -98,18 +101,25 @@ header
     flex-direction: column;
     width: 100%;
     height: 100px;
-    padding-top: 3.2rem;
+    padding-top: 3.4rem;
+    font-weight: bolder;
 }
 .text h2
 {
-    
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight:bolder;
+    text-align: center;
 }
 .text p
 {
-    font-size: 1.3rem;
+    margin: 0.5rem 5rem 0 5rem;
+    font-size: 1.07rem;
     font-weight:normal;
+    text-align: center;
+}
+.text span
+{
+    font-weight: normal;
 }
 .content
 {
@@ -121,10 +131,11 @@ header
     width: 95%;
     height: 75%;
     font-weight: normal;
-    margin-top: 1rem;
 }
 form
 {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 85%;
 }
@@ -133,7 +144,7 @@ form
     position: relative;
     width: 100%;
     height: 55px;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 0 0;
     
 }
 .form__input + .form__input
@@ -141,17 +152,17 @@ form
     position: relative;
     width: 100%;
     height: 55px;
-    margin: 1.2rem 0 0.8rem 0;
+    margin: 0.3rem 0 0.8rem 0;
     
 }
 .form__input input
 {
-    width: 96%;
+    width: 99%;
     height: 50px;
     border: 1px solid grey;
     border-radius: 10px;
     outline: none;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0;
     background-color: transparent;
     font-size: 20px;
     font-weight: normal;
@@ -160,11 +171,11 @@ form
 {
     position: absolute;
     top: 30%;
-    left: 15px;
+    left: 2rem;
     color: gray;
     pointer-events: none;
-    font-size: 0.9rem;
-    font-weight: 100;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 .form__input img 
 {
@@ -174,22 +185,25 @@ form
 }
 .form__signIn
 {
-    margin: 15px 0 0 0;
+    margin: 1.8rem 0 0 0;
 }
 .form__signIn button
 {
     width: 100%;
-    height: 60px;
+    height: 50px;
     border: none;
     border-radius: 10px;
     background-color: rgb(218, 188, 20);
-    font-size: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
     cursor: pointer;
 }
 .form__or
 {
     width: 100%;
-    margin: 1rem 0 1rem 0;
+    margin: 2rem 0 1.5rem 0;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -217,8 +231,8 @@ form
 .form__register
 {
     width: 100%;
-    margin: 40px 0 0 0;
-    font-size: 15px;
+    margin: 1.5rem 0 0 0;
+    font-size: 0.75rem;
     text-align: center;
 }
 .copyright
@@ -226,6 +240,7 @@ form
     width: 100%;
     margin: 30px 0 0 0;
     text-align: center;
+    font-size: 0.85rem;
     font-weight: normal;
 }
 .copyright a 
@@ -239,8 +254,8 @@ input:focus + label
 .header__yourEmail
 {
     position: absolute;
-    top: 95%;
-    left: 5rem;
+    top: 90%;
+    left: 6.5rem;
     font-size: medium;
     font-weight: 200;
     color: grey;
@@ -248,7 +263,7 @@ input:focus + label
 }
 .header__yourEmail img
 {
-    margin-left: 25px;
+    margin-left: 0.5rem;
 }
 .form__input + .form__input button
 {
